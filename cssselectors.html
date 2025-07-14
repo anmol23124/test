@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        .red{
+            background-color: red;
+        }
+        #green{
+            background-color: green;
+        }
+        div >p{
+            color: blue;
+            background-color: brown;
+        }
+        div p{
+             color: blue;
+             background-color: brown;
+        }
+        *{
+            margin:0;
+            p:0;
+        }
+        /* pseudo selector */
+        a:link{
+            color: yellow;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        I am anmol
+        <article>
+        <p> ia am para in this div</p>
+    </article> 
+    </div>
+    <div id="green">
+        JAY SHRI MAHAKAL
+    </div>
+    <a href="https://www.google.com">GO TO GOOGLE</a>
+    <a href="https://www,facebook.com">GO TO facebook</a>
+</body>
+</html>

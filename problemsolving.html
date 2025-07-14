@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PERSONAL PROFILE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome to my profile</h1>
+    <h2>About Me</h2>
+    <p>Hello! My name is Anmol Joshi. I am a passionate learner who enjoys exploring new technologies
+        and building creative web projects. I have recently started learning HTML and I'm excited about
+        creating websites from scratch. In my free time, I love reading, listening to music, and learning
+        new skills online. I believe that consistent practice and curiosity are the keys to becoming a great
+        web developer.
+    </p>
+    <h2>My Photo</h2>
+    <img src="Img2.jpeg" alt="normal image" width="300" height="300">
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>listening music</li>
+        <li>coding and building websites</li>
+        <li>playing cricket</li>
+    </ul>
+    <h2>My Achievements</h2>
+    <ol>
+        <li>completed basic Html</li>
+        <li>completed my first website</li>
+        <li>completed java&javascript</li>
+    </ol>
+    <hr>
+    <h2>Favourite Dishes</h2>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Dish name</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Pizza</td>
+            <td>chessy and delicious with toppings</td>
+            <td>200/-</td>
+        </tr>
+<tr>
+    <td>Burger</td>
+    <td>juicy patty with fresh veggies</td>
+    <td>100/-</td>
+</tr>
+<tr>
+    <td>Pasta</td>
+    <td>creamy white sauce pasta</td>
+    <td>250/-</td>
+</tr>
+<tr>
+    <td>Ice Cream</td>
+    <td>cold and sweet dessert</td>
+    <td>199/-</td>
+</tr>
+    </table>
+    <HR>
+    <H2>Contact Me</H2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" class="input-field"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" class="input-field"><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" class="input-field"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" class="input-field" rows="5" cols="30"></textarea>
+         <input type="submit" value="send">
+    </form>
+    <hr>
+    <h2>Featured Product</h2>
+    <div id="product-card" style="border: 1px solid gray; padding: 10px;">
+        <img src="Img3.jpg" alt="Product Image" width="300" height="300">
+        <h3 class="product-name">Wireless Headphone</h3>
+        <p class="product-description">high quality sound with noise cancellation.</p>
+        <p>price: <span class="price">599/-</span></p>
+    </div>
+    <hr>
+    <h2>Say Hello</h2>
+    <button onclick="greetusesr()">Click Me!</button>
+
+    <script>
+        function greetusesr() {
+        alert("Hello,welcome to my webpage!");     
+        }
+    </script>
+</body>
+</html>
